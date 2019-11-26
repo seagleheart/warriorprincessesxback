@@ -1,0 +1,127 @@
+body {
+	background-color: #f7f6ee;
+background-image: url("arches.png");
+	margin: 0 auto;
+}
+
+h1, p, h2 {
+	font-family: avenir, Castamere Sans;
+	/*color: #1B1B24;*/
+	/*color: #23313E;*/
+	color:#000033;
+}
+
+#home{
+	float: left;
+	padding-top: 1%;
+	margin: 0; 
+	padding-left:5%
+
+}
+
+a {
+	text-decoration: none;
+	font-size: 25px;
+	color:#000033;
+}
+
+a:hover {
+  opacity: 0.8;
+ }
+/*div {
+	position: relative;
+}*/
+
+/*.page {
+	position: absolute;
+	z-index: 0;
+	height: 1000px;
+	width: 100%;
+}*/
+
+/*.sarah {
+ 	z-index: 3;
+}*/
+
+/*.sarah {
+	position: relative;
+	z-index: 2;
+	width: 20%;
+}
+*/
+img {
+	z-index: 2;
+	position: absolute;
+	float: left;
+	width: 30%;
+	/*padding-left: 10%;*/
+	padding-top: 10%;
+}
+
+.block {
+	margin-top: 5%;
+	z-index: 1;
+	position: relative;
+	background-color: #9A9A8C;
+	background-color: #6E9DB5;
+	background-color: #997F66;
+	background-color: #AFA487;
+	background-color: #AFA487;
+	background-color: #B9AF96;
+	background-color: #BEB397;
+	/*background-color: #CDC5B0;*/
+	/*background-color: #45555F;*/
+	width: 80%;
+	float: right;
+	height: 1400px;
+}
+
+
+h1 {
+	padding-left: 30%;
+	font-size: 50px;
+}
+p {
+	line-height: auto;
+	width: 60%;
+	float: right;
+	padding-right: 9%;
+}
+
+
+h2 {
+	padding-top: 4%;
+	padding-left: 30%;
+	font-size: 30px;
+}
+
+#one {
+	font-size: 20px;
+	/*line-height: auto;*/
+	line-height: 30px;
+	padding-right: 10%;
+}
+
+#two, #three, #four {
+	font-size: 20px;
+	margin: 1%;
+	line-height: 30px;
+	/*text-indent: 3em;*/
+}
+
+#footer {
+	display: inline-block;
+	margin: 0px;
+	height: 60px;
+	width: 100%;
+	background-image: url("footertwo.png");
+	position: relative;
+	z-index: 1;
+}
+
+#footer p{
+	/*text-align: center;*/
+	/*padding-top: 2%;*/
+	color: white;
+	font-size: 20px;
+}

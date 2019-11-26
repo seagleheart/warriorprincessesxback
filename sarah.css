@@ -1,0 +1,117 @@
+body {
+	background-color: #f7f6ee;
+	margin: 0px;
+	/*background-image: url("cartographer.png"); */
+	background-image: url("scribble-light.png");
+}
+
+h1, p, h2 {
+	font-family: avenir, Castamere Sans;
+	/*color: #1B1B24;*/
+	/*color: #23313E;*/
+	color:#000033;
+}
+
+#home{
+	float: left;
+	padding-top: 1%;
+	margin: 0; 
+	padding-left:5%
+
+}
+
+a {
+	text-decoration: none;
+	font-size: 25px;
+	color:#000033;
+}
+
+a:hover {
+  opacity: 0.8;
+ }
+/*div {
+	position: relative;
+}*/
+
+/*.page {
+	position: absolute;
+	z-index: 0;
+	height: 1000px;
+	width: 100%;
+}*/
+
+/*.sarah {
+ 	z-index: 3;
+}*/
+
+/*.sarah {
+	position: relative;
+	z-index: 2;
+	width: 20%;
+}
+*/
+img {
+	z-index: 2;
+	position: absolute;
+	float: left;
+	width: 30%;
+	padding-top: 10%;
+}
+
+.block {
+	margin-top: 5%;
+	z-index: 1;
+	position: relative;
+	/*background-color: #6E9DB5;*/
+	/*background-color: #A18B95;*/
+	background-color: #a3969a;
+	background-color: #b8adb0;
+	/*background-color: #D5BCC6;*/
+	width: 80%;
+	float: right;
+	height: 1350px;
+}
+
+
+h1 {
+	padding-left: 30%;
+	font-size: 50px;
+}
+p {
+	line-height: auto;
+	width: 60%;
+	float: right;
+	padding-right: 9%;
+}
+
+
+h2 {
+	padding-top: 4%;
+	padding-left: 30%;
+	font-size: 30px;
+}
+
+
+#one, #two, #three, #four {
+	font-size: 20px;
+	margin: 1%;
+	line-height: 30px;
+	font-weight: normal;
+	/*text-indent: 3em;*/
+}
+
+#footer {
+	display: inline-block;
+	margin: 0px;
+	height: 60px;
+	width: 100%;
+	background-image: url("footertwo.png");
+	position: relative;
+	z-index: 1;
+}
+
+#footer p{
+	/*padding-top: 2%;*/
+	color: white;
+	font-size: 20px;
+}
