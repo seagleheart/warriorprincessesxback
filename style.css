@@ -234,14 +234,14 @@ a:hover {
 }
 
 #pages {
-	height: 800px;
+	height: 1000px;
 	background-color: #f7f6ee;
 	padding-top: 0px;
 }
 
 .image {
 	padding-top: 0;
-	height: 75%;
+	height: 60%;
 	float: left;
 	padding-left: 3%;
 }
@@ -253,10 +253,20 @@ a:hover {
 	padding-top: 15%;
 	font-size: 25px;
 }
+#support {
+	padding-top: 5%;
+	font-size: 40px;
+	float: left;
+	padding-right: 30%;
+	padding-left: 10%;
+}
 
-#pages h1{
+#pls {
+	padding-top: 3%;
+	width: 60%;
 	float: left;
 	padding-left: 10%;
+	font-size: 25px;
 }
 
 #footer {
