@@ -254,6 +254,11 @@ a:hover {
 	font-size: 25px;
 }
 
+#pages h1{
+	float: left;
+	padding-left: 10%;
+}
+
 #footer {
 	display: inline-block;
 	margin: 0px;
