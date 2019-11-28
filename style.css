@@ -12,7 +12,9 @@ h1, h2, p{
 	margin: 0 auto;
 }
 
-
+#pageclip {
+display: none;
+}
 
 /*THIS IS WEBPAGE DESIGN*/
 /*@media (min-width: 900px) {
